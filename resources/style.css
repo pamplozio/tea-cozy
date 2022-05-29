@@ -1,0 +1,173 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    background-color: black;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    top: 0px; 
+       
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+nav span{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+nav a {
+    color: seashell;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.background-pic {
+    background-image: url("./images/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.items-mission {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.tea-month {
+    color: seashell;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.cup-berries, 
+.spiced-rum,
+.donut,
+.myrtle,
+.bedford-tea {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.tea-pics {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    text-align: center;    
+}
+
+.img-fall-berry h4,
+.rum-tea h4,
+.seasonal-don h4,
+.myrtle-tea h4,
+.bedford h4 {
+    margin-top: 10px;
+}
+
+
+
+.l-central {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    width: 1000px;
+}
+
+.locations {
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;    
+}
+
+
+
+.downtown,
+.east,
+.oakdale {
+    background-color: black;
+    opacity: 1;
+    margin-left: 40px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.not-bold {
+    font-weight: normal;
+}
+
+.cozy-details {
+    height: 200px;
+    color: seashell;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
